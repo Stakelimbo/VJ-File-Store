@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "0376051f8621f17e3f644acc3d01b413")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://postimg.cc/SjrHc3yM')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6969171673').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6969171673 7141149658 6325966595').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "XyzMoviesunofficialbot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -42,8 +42,8 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
 
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "1")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "60")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "2")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "120")) # Time in Seconds
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002243824039"))
@@ -59,8 +59,8 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_API = environ.get("SHORTLINK_API", "931f4b13bd82a38c75aa92face2613e5dad9bd4d") # shortlink api
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "publicearn.com") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "03fccf4861104e0e03e12181fbce3e8dbaf5eae9") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "instantearn.in") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Tutolinkboo/105") # how to open link 
 
 # Website Info:
